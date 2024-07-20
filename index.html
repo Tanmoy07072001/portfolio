@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY PORTFOLIO</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">TANMOY ROY</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">TANMOY ROY</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./assets/profile1.png" alt="Tanmoy Roy profile picture">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Tanmoy Roy</h1>
+            <p class="section__text__p2">ios developer</p>
+            <div class="btn-container">
+                <button 
+                    class="btn btn-color-2" 
+                    onclick="window.open('./assets/resume.pdf')"
+                >
+                    Download CV
+                </button>
+
+                <button 
+                    class="btn btn-color-1" 
+                    onclick="location.href = './#contact'"
+                >
+                    Contact Info
+                </button>
+            </div>
+            <div id="socials-container">
+                <img src="./assets/linkedin.png" 
+                alt="My Linkdin profile"
+                class="icon" 
+                onclick="location.href='https://www.linkedin.com/in/tanmoy-roy-ba8325287/'">
+
+                <img src="./assets/github.png" 
+                alt="My github profile"
+                class="icon" 
+                onclick="location.href='https://github.com/Tanmoy07072001'">
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="./assets/profile-pic3.png" 
+                alt="Profile Picture"
+                class="about-pic"
+                />
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./assets/experience.png" 
+                        alt="Experience icon"
+                        class="icon"
+                        />
+                        <h3>Experience</h3>
+                        <p>Inturnship at <br> JUSense & Technology pvt ltd.</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="./assets/education.png" 
+                        alt="Education icon"
+                        class="icon"
+                        />
+                        <h3>Education</h3>
+                        <p>B.E in <br> Computer Science & Engineering ,<br>from JADAVPUR UNIVERSITY .</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>
+                        I have extensive experience in iOS development, 
+                        having created and deployed numerous applications with
+                        diverse functionalities.<br>
+                        My work in drone technology includes developing autonomous navigation systems 
+                        and innovative solutions for aerial data collection. 
+                        <br>Additionally, I have a strong background in deep learning, 
+                        where I have designed and implemented models for tasks like 
+                        image classification and object detection using frameworks such as 
+                        YOLO, Faster R-CNN, Mask R-CNN and PyTorch. Currently, 
+                        I am interning at JUSENSE Pvt Ltd, where I am contributing to cutting-edge 
+                        projects that leverage my skills in iOS development, 
+                        drone technology, and deep learning.
+
+                    </p>
+                </div>
+            </div>
+        </div>
+        <img 
+            src="./assets/arrow.png" 
+            alt="Arrow icon" 
+            class="icon arrow"
+            onclick="location.href='./#experience'"
+        />
+    </section>
+    <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Frontend ios Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img 
+                                src="./assets/checkmark.png" 
+                                alt="Experience icon"
+                                class="icon"
+                            />
+                            <div>
+                                <h3>Swift</h3>
+                                <p>(Experienced)</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img 
+                                src="./assets/checkmark.png" 
+                                alt="Experience icon"
+                                class="icon"
+                            />
+                            <div>
+                                <h3>SwiftUI</h3>
+                                <p>(Experienced)</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img 
+                                src="./assets/checkmark.png" 
+                                alt="Experience icon"
+                                class="icon"
+                            />
+                            <div>
+                                <h3>Objective C</h3>
+                                <p>(Beginner)</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img 
+                                src="./assets/checkmark.png" 
+                                alt="Experience icon"
+                                class="icon"
+                            />
+                            <div>
+                                <h3>Spline</h3>
+                                <p>for animation<br>(intermediate)</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img 
+                                src="./assets/checkmark.png" 
+                                alt="Experience icon"
+                                class="icon"
+                            />
+                            <div>
+                                <h3>Rive</h3>
+                                <p>for animation<br>(intermediate)</p>
+                            </div>
+                        </article>
+                        
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Backend ios Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img 
+                                src="./assets/checkmark.png" 
+                                alt="Experience icon"
+                                class="icon"
+                            />
+                            <div>
+                                <h3>FireBase</h3>
+                                <p>(Experienced)</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img 
+                                src="./assets/checkmark.png" 
+                                alt="Experience icon"
+                                class="icon"
+                            />
+                            <div>
+                                <h3>CoreML</h3>
+                                <p>for DL & ML model deployment.<br>(Beginner)</p>
+                            </div>
+                        </article>
+                        
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Deep Learning</h2>
+                    <div class="article-container">
+                        <article>
+                            <img 
+                                src="./assets/checkmark.png" 
+                                alt="Experience icon"
+                                class="icon"
+                            />
+                            <div>
+                                <h3>YOLO(v7)</h3>
+                                <p>(Experienced)</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img 
+                                src="./assets/checkmark.png" 
+                                alt="Experience icon"
+                                class="icon"
+                            />
+                            <div>
+                                <h3>YOLO(v8)</h3>
+                                <p>(Experienced)</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img 
+                                src="./assets/checkmark.png" 
+                                alt="Experience icon"
+                                class="icon"
+                            />
+                            <div>
+                                <h3>YOLO(nas)</h3>
+                                <p>(Experienced)</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img 
+                                src="./assets/checkmark.png" 
+                                alt="Experience icon"
+                                class="icon"
+                            />
+                            <div>
+                                <h3>PyTorch</h3>
+                                <p>(Experienced)</p>
+                            </div>
+                        </article>
+                        
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Frontend & Backend web Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img 
+                                src="./assets/checkmark.png" 
+                                alt="Experience icon"
+                                class="icon"
+                            />
+                            <div>
+                                <h3>HTML</h3>
+                                <p>(intermediate)</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img 
+                                src="./assets/checkmark.png" 
+                                alt="Experience icon"
+                                class="icon"
+                            />
+                            <div>
+                                <h3>CSS</h3>
+                                <p>(intermediate)</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img 
+                                src="./assets/checkmark.png" 
+                                alt="Experience icon"
+                                class="icon"
+                            />
+                            <div>
+                                <h3>Streamlit</h3>
+                                <p>for Deep learning model deployment<br>(Experienced)</p>
+                            </div>
+                        </article>
+                        
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Drone Works</h2>
+                    <div class="article-container">
+                        <article>
+                            <img 
+                                src="./assets/checkmark.png" 
+                                alt="Experience icon"
+                                class="icon"
+                            />
+                            <div>
+                                <h3>Hardware</h3>
+                                <h4>Pixhawk</h4>
+                                <p>(Experienced)</p>
+                                <h4>APM</h4>
+                                <p>(Experienced)</p>
+                                <h4>SpeedyBee F405 V3</h4>
+                                <p>(Experienced)</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img 
+                                src="./assets/checkmark.png" 
+                                alt="Experience icon"
+                                class="icon"
+                            />
+                            <div>
+                                <h3>Software</h3>
+                                <h4>QGround Control</h4>
+                                <p>(Experienced)</p>
+                                <h4>Mission Planner</h4>
+                                <p>(Experienced)</p>
+                            </div>
+                        </article>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img 
+            src="./assets/arrow.png" 
+            alt="Arrow icon" 
+            class="icon arrow"
+            onclick="location.href='./#projects'"
+        />
+    </section>
+    <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img 
+                            src="assets/project_1.png" 
+                            alt="project-1" 
+                            class="project-img"
+                        />
+                    </div>
+                    <h2 class="experience-sub-title project-title">Project One</h2>
+                    <div class="btn-container">
+                        <button 
+                            class="btn btn-color-2 project-btn" 
+                            onclick="location.href='https://github.com/Tanmoy07072001/Twitter'"
+                            >
+                            Github
+                        </button>
+                        <button 
+                            class="btn btn-color-2 project-btn" 
+                            onclick="location.href='https://youtu.be/KNpPOkqHeVY'"
+                            >
+                            Youtube
+                        </button>
+                    </div>
+                    <p>Twitter is a social media app that leverages Firebase, Firestore, and KingFisher 
+                        for robust backend services, image caching, and various components 
+                        to handle user authentication, tweet uploads, navigation, profiles,
+                         notifications, messaging, and more.</p>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img 
+                            src="assets/proj_2.png" 
+                            alt="project-1" 
+                            class="project-img"
+                        />
+                    </div>
+                    <h2 class="experience-sub-title project-title">Project Two</h2>
+                    <div class="btn-container">
+                        <button 
+                            class="btn btn-color-2 project-btn" 
+                            onclick="location.href='https://github.com/Tanmoy07072001/yolowebapp'"
+                            >
+                            Github
+                        </button>
+                        <button 
+                            class="btn btn-color-2 project-btn" 
+                            onclick="location.href='https://youtu.be/e705QGdrfVU'"
+                            >
+                            Youtube
+                        </button>
+                    </div>
+                    <p>The YOLOv8 Object Detection Web App, developed using Streamlit
+                         and OpenCV, allows users to perform real-time object detection 
+                         on images, videos, and live webcam feeds with high speed and 
+                         accuracy.</p>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img 
+                            src="assets/proj3.png" 
+                            alt="project-1" 
+                            class="project-img"
+                        />
+                    </div>
+                    <h2 class="experience-sub-title project-title">Project Three</h2>
+                    <div class="btn-container">
+                        <button 
+                            class="btn btn-color-2 project-btn" 
+                            onclick="location.href='https://github.com/Tanmoy07072001/chatapp2-name-whisper-'"
+                            >
+                            Github
+                        </button>
+                        <button 
+                            class="btn btn-color-2 project-btn" 
+                            onclick="location.href='https://youtu.be/RdixCWqsJPA'"
+                            >
+                            Youtube
+                        </button>
+                    </div>
+                    <p>
+                        Whisper is an intuitive chat application featuring seamless 
+                        communication, captivating animations, and robust backend 
+                        support via Firebase and Firestore, offering streamlined 
+                        authentication, efficient message handling, and secure logout 
+                        functionality for an optimal user experience.
+                    </p>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img 
+                            src="assets/proj2.png" 
+                            alt="project-1" 
+                            class="project-img"
+                        />
+                    </div>
+                    <h2 class="experience-sub-title project-title">Project Four</h2>
+                    <div class="btn-container">
+                        <button 
+                            class="btn btn-color-2 project-btn" 
+                            onclick="location.href='https://github.com/Tanmoy07072001/hotelApp'"
+                            >
+                            Github
+                        </button>
+                        <button 
+                            class="btn btn-color-2 project-btn" 
+                            onclick="location.href='https://youtu.be/a_6TX7L-03I'"
+                            >
+                            Youtube
+                        </button>
+                    </div>
+                    <p>The Hotel app features authentication and registration pages, 
+                        allowing users to search for hotels, view room previews, 
+                        check locations and availability, and search for flights, 
+                        all accessible via the home page.</p>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img 
+                            src="assets/drone.png" 
+                            alt="project-1" 
+                            class="project-img"
+                        />
+                    </div>
+                    <h2 class="experience-sub-title project-title">Project Five</h2>
+                    <div class="btn-container">
+                        <button 
+                            class="btn btn-color-2 project-btn" 
+                            onclick="location.href='https://youtu.be/32iH0GZez14'"
+                            >
+                            Youtube
+                        </button>
+                    </div>
+                    <p>The Drone project includes a quadcopter with various controllers 
+                        and an action camera, alongside a Streamlit web app for live 
+                        and post-processed object detection, classification, 
+                        and segmentation powered by the YOLO model for high accuracy.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <img 
+            src="./assets/arrow.png" 
+            alt="Arrow icon" 
+            class="icon arrow"
+            onclick="location.href='./#projects'"
+        />
+    </section>
+    <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img 
+                    src="./assets/email.png" 
+                    alt="Email icon"
+                    class="icon contact-icon email-icon"
+                />
+                <p><a href="mailto:roytanmoy07072001@gmail.com"></a>roytanmoy07072001@gmail.com</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Tanmoy Ro</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
