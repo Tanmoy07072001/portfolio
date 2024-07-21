@@ -321,6 +321,11 @@ section {
     margin-bottom: 2rem;
 }
 
+p {
+    padding-top: 2px;
+    padding-bottom: 10px;
+}
+
 .experience-details-container {
     display: flex;
     justify-content: center;
